@@ -53,20 +53,22 @@
 // }
 
 
-//=====================
+
+//===================== This  code is onli accessible inside class not out of class =============
 
 public class Main{
-    private String name = "asvd";
-    private int age = 12;
+    private String name = "Arham";
+    private int age = 20;
     private String klass = "BTech";
     
     
     public static void main(String[] args){
         Main obj  = new Main();
-        System.out.println(obj.name + obj.age + obj.klass);
+        System.out.println(obj.name + " " + obj.age + " " + obj.klass);
         
     }
 }
+
 
 
 
