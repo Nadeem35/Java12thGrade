@@ -42,10 +42,10 @@ public class Main {
 
 // ========== String array manipulation ==============
 
-// 		String name[] = {"Ayan", "Faizan", "Uzair", "Sheeza", "Shah", "Shafi"};
+// 	    String name[] = {"Ayan", "Faizan", "Uzair", "Sheeza", "Shah", "Shafi"};
 
 
-// // 		System.out.println("Array before sort : " + Arrays.toString(name));
+// 		System.out.println("Array before sort : " + Arrays.toString(name));
 
 // 		Arrays.sort(name);
 
@@ -56,8 +56,17 @@ public class Main {
 // 		Scanner sc = new Scanner(System.in);
 // 		String value = sc.nextLine();
 
-// 		System.out.println("The elements at Index "+ value + " is = " +  Arrays.binarySearch(name, value));
+// 		System.out.println("The elements "+ value + " is = " +  Arrays.binarySearch(name, value));
 
+// 		int A = Arrays.binarySearch(name, value);
+
+// 		if(A != -7) {
+// 			System.out.println("The index of "+ value + " is = " + A);
+// 		}else{
+// 		    System.out.println("Value not found");
+// 		}
+		
+		
 
 
 
