@@ -154,3 +154,18 @@ provide public get and set methods to access and update the value of a private v
 **Get and Set**
 We already learned private variables can only be accessed within the same class (an outside class has no access to it). However, it is possible to access them if we provide public get and set methods.
 The get method returns the variable value, and the set method sets the value.
+
+**Java Exceptions - Try...Catch**
+When executing Java code, different errors can occur: coding errors made by the programmer, errors due to wrong input, or other unforeseeable things.
+When an error occurs, Java will normally stop and generate an error message. The technical term for this is: Java will throw an exception (throw an error).
+
+**Java try and catch**
+The try statement allows you to define a block of code to be tested for errors while it is being executed.
+The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
+The try and catch keywords come in pairs:
+
+try{
+    //code for logic
+}catch(Exception e){
+    System.out.print("Explain you Error");
+}
