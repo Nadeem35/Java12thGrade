@@ -2,18 +2,18 @@
 
 // public class Main {
 
-// 	int a;         // Instance variable f
+// 	int a;         // Instance variable a
 // 	String name;   // Instance variable name
 
-// 	// Constructor to initialize f and name
+// 	// Constructor to initialize a and name
 // 	public Main(int z, String newname) {
-// 		a = z;       // Assigning parameter d to instance variable f
+// 		a = z;       // Assigning parameter d to instance variable a
 // 		name = newname;  // Assigning parameter nme to instance variable name
 // 	}
 
 
 // 	void sp() {
-// 		System.out.println("My roll number is : " + a);     // Correctly print f
+// 		System.out.println("My roll number is : " + a);     // Correctly print a
 // 		System.out.println("My name is : " + name); // Correctly print name
 // 	}
 
@@ -73,26 +73,6 @@ public class Main {
 	    int Area =  area_S(5, 4);
 	    System.out.println(Area);
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
