@@ -48,7 +48,8 @@ public class Second{
 /*
 Explaination
 The get method returns the value of the variable name.
-The set method takes a parameter (newName) and assigns it to the name variable. The this keyword is used to refer to the current object.
+The set method takes a parameter (newName) and assigns it to the name variable. 
+The this keyword is used to refer to the current object.
 */
 
 
