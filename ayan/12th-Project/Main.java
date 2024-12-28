@@ -23,8 +23,7 @@ public class Main {
             System.out.print("Enter a guess number between 1 to 100\n");
             if(userInput.hasNextInt()) {
                 guessedNumberByUser = userInput.nextInt();
-                if (guessedNumberByUser == expectedNumber)
-                {
+                if (guessedNumberByUser == expectedNumber){
                     System.out.println("Your Number is right. You Win the Game!");
                     break;
                 }
