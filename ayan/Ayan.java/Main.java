@@ -114,7 +114,25 @@ public class Main
 
 
 
+// ==================== Comound Interest ===================
 
+			Scanner sc=new Scanner(System.in);
+
+		System.out.print("enter the principal amount : ");
+		int p=sc.nextInt();
+
+		System.out.print("enter the rate of interest per annum : ");
+		int r=sc.nextInt();
+
+		System.out.print("enter the years money is submitted: ");
+		int n=sc.nextInt();
+
+// 		double rate = r/100.0;
+		double result= p * Math.pow(1 + r/100.0, n);
+
+		System.out.println("The Compoo=und interest of " + p +" is = " +  Math.round(result) );
+
+		
 
 
 
