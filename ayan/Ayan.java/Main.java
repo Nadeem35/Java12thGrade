@@ -134,8 +134,32 @@ public class Main
 
 		
 
+// ==================== Vote program ===================
+
+				System.out.print("enter your age :");
+		int age=sc.nextInt();
+
+		String res= (age>=18) ? "you are eligible to vote" : "you are not eligible to vote";
+		System.out.println(res);
 
 
+
+		
+// ==================== Leap Year program ===================
+
+	if(y%4==0) {
+
+			if(y%100 == 0) {
+
+				if(y%400 == 0) {
+					System.out.println("leap Year");
+				} else {
+					System.out.println("Not leap Year");
+				}
+			} else {
+				System.out.println("Leap Year");
+			}
+		}
 
 
 
