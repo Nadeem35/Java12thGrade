@@ -1,15 +1,13 @@
-// public class Main{
-//     int x;
-    
-//     public Main(int y){
-//         x = y;
-//     }
-    
-//     public static void main(String[] args){
-//         Main obj = new Main(56);
-//         System.out.println(obj.x);
-//     }
-// }
+public class Main {
+    int x;  // Instance variable to store a value
+
+    // Constructor
+    public Main(int y) {
+        x = y;  // Initialize the instance variable 'x' with the value of 'y'
+    }
+
+    // Main method (entry point of the program)
+    public
 
 
 
