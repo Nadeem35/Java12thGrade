@@ -152,7 +152,7 @@ declare class variables/attributes as private
 provide public get and set methods to access and update the value of a private variable
 
 **Get and Set**
-We already learned private variables can only be accessed within the same class (an outside class has no access to it). However, it is possible to access them if we provide public get and set methods.
+private variables can only be accessed within the same class (an outside class has no access to it). However, it is possible to access them if we provide public get and set methods.
 The get method returns the variable value, and the set method sets the value.
 
 **Java Exceptions - Try...Catch**
