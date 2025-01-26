@@ -85,6 +85,48 @@ public class Main{
 
 
 
+//=====================
+
+
+// public class Main {
+// 	public static void main(String[] args) {
+// 		int a = 4545;
+// 		int b = 15452;
+
+// 		try {
+// 			int sum = a+b;
+// 			System.out.println(sum);
+// 		} catch(Exception e) {
+// 			System.out.println("you entering wrong input = " + e.getMessage());
+// 		}
+// 		finally {
+// 			System.out.println("Finally executed.");
+// 		}
+// 	}
+// }
+
+
+//=====================
+
+
+// public class Main {
+// 	public static void main(String[] args) {
+
+// 		try {
+// 			int[] arr = {1,2,3,4,5/0};
+// 			System.out.println(arr[5]);
+
+// 		} catch(ArithmeticException e) {
+// 			System.out.println("Error type-1 : "+ e.getMessage());
+// 		} catch(ArrayIndexOutOfBoundsException e) {
+// 			System.out.println("Error type-2 : " + e.getMessage());
+// 		}
+// 		finally {
+// 			System.out.println("Finally executed.");
+// 		}
+// 	}
+// }
+
 
 
 
