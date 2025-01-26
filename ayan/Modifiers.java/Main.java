@@ -69,6 +69,38 @@ public class Main{
 
 
 
+//========================= revisions code =============================
+
+    
+// public class Main {
+//     int x;
+// 	public void Nadeem() {
+// 		System.out.print("Message " + x);
+// 	}
+// 	public static void main (String[] args) {
+// 		/* using static method */
+//      // Nadeem();
+// 		Main obj = new Main();
+// 		obj.x = 12;
+// 		obj.Nadeem();
+// 	}
+// }
+
+
+
+// =======================\
+
+// public class Main{
+//     static void myMethod(String fname, String lname){
+//         System.out.println("My name is " + fname + lname);
+//     }
+
+//     public static void main (String[] args) {
+
+//         myMethod("nadeem", " Inaya");
+//     }
+// }
+
 
 
 
