@@ -73,6 +73,19 @@ public class Fileone {
 }
 
 // ==================== File - 2 ================
+public class Filesecond {
+    public static void main(String[] args){
+      Fileone obj = new Fileone();
+      obj.setmethod(203, "Saifiyana", "BTech");
+      
+      System.out.println("My number is : " + obj.getmethd1());
+      System.out.println("My name is : " + obj.getmethd2());
+      System.out.println("My Education is : " + obj.getmethd3());
+      
+    }
+}
+
+// ==================== File - 2 ================
 package GetterSetter;
 public class Fileone {
     public int age;
