@@ -76,7 +76,7 @@ public class Fileone {
 public class Filesecond {
     public static void main(String[] args){
       Fileone obj = new Fileone();
-      obj.setmethod(203, "Saifiyana", "BTech");
+      obj.setmethod(20, "Saifiyana", "BTech");
       
       System.out.println("My number is : " + obj.getmethd1());
       System.out.println("My name is : " + obj.getmethd2());
@@ -84,33 +84,6 @@ public class Filesecond {
       
     }
 }
-
-// ==================== File - 2 ================
-package GetterSetter;
-public class Fileone {
-    public int age;
-    public String name;
-    private String edu;
-
-    public int getmethd1() {
-        return age;
-    }
-    public String getmethd2() {
-        return name;
-    }
-    public String getmethd3(){
-    return edu;
-    }
-
-    public void setmethod(int newAge, String newName, String newEdu) {
-        this.age = newAge;
-        this.name = newName;
-        this.edu = newEdu;
-    }
-}
-
-
-
 
 
 
